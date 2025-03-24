@@ -9,7 +9,7 @@
     <relativePath/> <!-- lookup parent from repository -->
   </parent>
   <groupId>com.peter</groupId>
-  <artifactId>patient-management</artifactId>
+  <artifactId>patient-service</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>patient-management</name>
   <description>Patient management Demo project for Spring Boot</description>
@@ -62,6 +62,7 @@
     <dependency>
       <groupId>org.projectlombok</groupId>
       <artifactId>lombok</artifactId>
+      <version>1.18.30</version> <!-- Ensure version is specified -->
       <optional>true</optional>
     </dependency>
     <dependency>
@@ -89,7 +90,7 @@
         <configuration>
           <annotationProcessorPaths>
             <path>
-              <groupId>org.project.lombok</groupId>
+              <groupId>org.projectlombok</groupId>
               <artifactId>lombok</artifactId>
             </path>
           </annotationProcessorPaths>
